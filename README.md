@@ -3,4 +3,4 @@
 Clonar em ~/.config/nvim
 
 # Dependencias
-sudo apt install git zip unzip silversearcher-ag
+sudo apt install git zip unzip silversearcher-ag fzy

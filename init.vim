@@ -5,7 +5,6 @@ Plug 'airblade/vim-gitgutter'                          "plugin do git
 Plug 'sheerun/vim-polyglot'                            "identação e esquema de cores para varias linguagens
 Plug 'editorconfig/editorconfig-vim'                   "interpreta .editorconfig
 Plug 'itchyny/lightline.vim'                           "cores na barra de status
-Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 Plug 'cloudhead/neovim-fuzzy'
 call plug#end()
 
