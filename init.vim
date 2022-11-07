@@ -6,9 +6,9 @@ Plug 'sheerun/vim-polyglot'                            "identação e esquema de
 Plug 'editorconfig/editorconfig-vim'                   "interpreta .editorconfig
 Plug 'itchyny/lightline.vim'                           "cores na barra de status
 "Plug 'cloudhead/neovim-fuzzy'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }    "pesquisa de arquivos
+Plug 'junegunn/fzf.vim'                                "pesquisa de arquivos
+Plug 'neoclide/coc.nvim', {'branch': 'release'}        "auto complete 
 call plug#end()
 
 colorscheme gruvbox
